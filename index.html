@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[url('/images/image.png')]">
+    <nav class="flex items-center justify-around mt-5">
+      <img src="images/logo.png" alt="logo" class="w-40 cursor-pointer" />
+      <ul class="text-white flex gap-x-16">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <img src="images/cart.png" class="w-8 cursor-pointer" />
+    </nav>
+
+   <section class="flex justify-center ">
+        <div class="flex flex-col">
+            <div class="text-white mt-56">
+                <h1 class="text-6xl leading-snug">Groceries <br> Delivery in <span class="font-light">15 mins</span></h1>
+            </div>
+            <div class="text-white">
+                <p>Grocify offer a wide range of products, inclusing gresh products, meats , <br> dairy, baked goods and non-perishable items.</p>
+            </div>
+            <div class="text-white mt-8 flex gap-8 items-center">
+                <a href="#">
+                    <button class="bg-yellow-500 rounded-3xl py-1 px-5 text-lg text-black hover:bg-transparent hover:text-white hover:border-yellow-300 hover:border border border-transparent">Order Now</button>
+                </a>
+
+                <a href="#">Download App <span class="rotate-90 inline-block">&#10148;</span></a>
+            </div>
+        </div>
+        
+        <div class="">
+            <img src="images/grocery-image.png" alt="">
+        </div>
+    </section>
+  </body>
+</html>
